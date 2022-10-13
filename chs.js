@@ -340,7 +340,7 @@ var cnItems = {
     "Equipment found for Relief with a probability of 100%.": "以100%的概率找到救援装备。",
     "We should make a detour, this is taking too long.": "我们应该绕道而行，这花费的时间太长了。",
     "Oh, what a great detour you found for us. It's full of enemies! This is going to take forever!": "哦，你为我们找到了一个多么好的弯路。 到处都是敌人！ 这将永远持续下去！",
-    "": "",
+    "We are getting closer to the headquarters, we can almost see it in the horizon.": "我们越来越接近总部，我们几乎可以在地平线上看到它。",
     "": "",
     "": "",
     "": "",
