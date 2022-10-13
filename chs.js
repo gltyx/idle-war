@@ -314,7 +314,7 @@ var cnItems = {
     "Alright everyone, let's push through and get to the city as soon as possible.": "好了各位，让我们继续前进，尽快到达城里。",
     "Lets see what is out there.": "让我们看看外面有什么。",
     "We have to make our way to the headquarters. It seems they have discovered new information!": "我们必须前往总部。 他们似乎发现了新的信息！",
-    "": "",
+    "How far can you get? Test yourself, push yourself and keep on earning XP!": "你能达到多远？ 测试自己，推动自己，继续获取 经验值！",
     "": "",
     "": "",
     "": "",
