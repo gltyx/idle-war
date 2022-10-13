@@ -325,7 +325,7 @@ var cnItems = {
     "Upgrades menu": "升级菜单",
     "Your first mission": "你的第一个任务",
     "All upgrades were reset and all points refunded.": "所有升级均已重置，所有点数均已退还。",
-    "": "",
+    "Aggressive stance level": "激进的立场等级",
     "": "",
     "": "",
     "": "",
