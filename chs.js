@@ -324,7 +324,7 @@ var cnItems = {
     "For your ship to fire, click on the": "要让您的船开火，请点击",
     "Upgrades menu": "升级菜单",
     "Your first mission": "你的第一个任务",
-    "": "",
+    "All upgrades were reset and all points refunded.": "所有升级均已重置，所有点数均已退还。",
     "": "",
     "": "",
     "": "",
