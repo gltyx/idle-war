@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0060)game-window.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><input type="hidden" id="_w_simile" data-inspect-config="3"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script></head><body youdao="bind" cz-shortcut-listen="true"><div class="game-window">
+<div class="game-window">
     <div class="mission-text-box"></div>
 
     <div class="information">
@@ -23,9 +21,9 @@
             <span class="inner-bar"></span>
         </span>
         
-        <span class="button-glow button" onclick="toggleJournal(); return false;">View<br>Journal</span>
-        <span class="button-glow button" onclick="showCompleteMission(); return false;">Complete<br>Mission</span>
-        <span class="button-glow main-menu" onclick="showMainMenu(true); return false;">Save &amp;<br>Exit</span>
+        <span class="button-glow button" onclick="toggleJournal(); return false;">View<br />Journal</span>
+        <span class="button-glow button" onclick="showCompleteMission(); return false;">Complete<br />Mission</span>
+        <span class="button-glow main-menu" onclick="showMainMenu(true); return false;">Save &amp;<br />Exit</span>
     </div>
 
     <div class="ships-container">
@@ -45,11 +43,11 @@
     <p>Enemies killed: <span class="orange" id="cm-foes-killed">0</span></p>
     <p>Time played: <span class="orange" id="cm-time-played">0</span></p>
     <p class="description">
-        The game will reset, but you can then spend XP on upgrades, making your ships more powerful.<br>
+        The game will reset, but you can then spend XP on upgrades, making your ships more powerful.<br />
     </p>
     <p id="complete-mission-bonuses"></p>
     <div class="actions">
-        <a href="game-window.html#" onclick="playSelectMenu(); completeMission();">Complete mission</a><a class="cm-continue-mission" href="game-window.html#" onclick="playSelectMenu(); hideCompleteMission();">Continue mission</a>
+        <a href="#" onclick="playSelectMenu(); completeMission();">Complete mission</a><a class="cm-continue-mission" href="#" onclick="playSelectMenu(); hideCompleteMission();">Continue mission</a>
     </div>
 </div>
 
@@ -58,7 +56,7 @@
     <p class="description">All your ships have been disabled. Do you want to try again, or end the mission? Game will automatically try again in 10 seconds...</p>
     <span class="progress-bar"><span class="inner-bar"></span></span>
     <div class="actions">
-        <a class="sd-restart-level" href="game-window.html#" onclick="playSelectMenu(); restartLevel();">Try again</a><a href="game-window.html#" onclick="playSelectMenu(); completeMission();">End mission</a>
+        <a class="sd-restart-level" href="#" onclick="playSelectMenu(); restartLevel();">Try again</a><a href="#" onclick="playSelectMenu(); completeMission();">End mission</a>
     </div>
 </div>
 
@@ -66,7 +64,7 @@
     <h2>Required stage reached</h2>
     <p class="description">You have completed the mission. Do you wish to continue to kill more enemies and earn more XP, or complete the mission?</p>
     <div class="actions">
-        <a class="ml-continue-level" href="game-window.html#" onclick="playSelectMenu(); hideMissionLevelReached();">Continue</a><a href="game-window.html#" onclick="playSelectMenu(); completeMission();">Complete mission</a>
+        <a class="ml-continue-level" href="#" onclick="playSelectMenu(); hideMissionLevelReached();">Continue</a><a href="#" onclick="playSelectMenu(); completeMission();">Complete mission</a>
     </div>
 </div>
 
@@ -104,15 +102,15 @@
     <p id="ni-name">Equipment name <span class="orange">level</span></p>
     <p id="ni-stats" class="description">Bonus text</p>
     <div class="actions">
-        <a class="button-glow" href="game-window.html#" onclick="closeNewItemWindow();">Continue</a>
+        <a class="button-glow" href="#" onclick="closeNewItemWindow();">Continue</a>
     </div>
 </div>
 
 <div class="mission-information-box mission-completed">
     <h2>Mission completed!</h2>
-    <div class="text description"><p>You have earned <span class="orange">0</span></p></div>
+    <div class="text description"><p>You have earned <span class="orange">0</span></div>
     <div class="actions">
-        <a href="game-window.html#" onclick="playSelectMenu(); closeCompleteMissionWindow();">Continue</a>
+        <a href="#" onclick="playSelectMenu(); closeCompleteMissionWindow();">Continue</a>
     </div>
 </div>
 
@@ -122,4 +120,3 @@
         
     </div>
 </div>
-</body></html>
