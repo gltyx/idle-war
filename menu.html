@@ -1,0 +1,23 @@
+<div class="home-navigation">
+	<a class="button-glow" id="menu-start-game" href="#" onclick="playSelectMenu(); startNewGame(); return false;">Start new mission</a>
+	<a class="button-glow" id="menu-continue-game" href="#" onclick="playSelectMenu(); continueGame(); return false;">Continue mission</a>
+	<a class="button-glow has-tooltip" id="menu-ships" href="#" onclick="playSelectMenu(); manageShips(); return false;">Ships<span class="level-up">(level up available)</span><span class="tooltip">Manage your unlocked ships, and upgrade their equipment</span></a>
+	<a class="button-glow has-tooltip" href="#" onclick="playSelectMenu(); manageUpgrades(); return false;">Upgrades<span class="tooltip">Spend your points in global upgrades that will greatly improve your ship's performance</span></a>
+	<div class="menu-two-buttons">
+		<div class="menu-option-container">
+			<a class="button-glow" href="#" onclick="playSelectMenu(); viewAchievements(); return false;">Achievements</a>
+		</div>
+		<div class="menu-option-container">
+			<a class="button-glow" href="#" onclick="playSelectMenu(); viewStatistics(); return false;">Statistics</a>
+		</div>
+	</div>
+	<div class="menu-two-buttons">
+		<div class="menu-option-container">
+			<a class="button-glow" href="#" onclick="playSelectMenu(); gameSettings(); return false;">Settings</a>
+		</div>
+		<div class="menu-option-container">
+			<a class="button-glow" href="#" onclick="playSelectMenu(); aboutTheGame(); return false;">About</a>
+		</div>
+	</div>
+	<a class="button-glow reset" href="#" onclick="playSelectMenu(); resetGame(true); return false;">Reset</a>
+</div>
