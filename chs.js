@@ -95,7 +95,7 @@ var cnItems = {
     "Enemy DPS:": "敌人DPS：",
     "Enemy focus": "敌人焦点",
     "Enemy Health:": "敌人健康：",
-    "Export save game": "导出保存游戏",
+    "Export save game": "导出游戏存档",
     "Freeplay": "免费玩",
     "Game speed: 1x": "游戏速度：1x",
     "Graphical / Performance": "图形/性能",
