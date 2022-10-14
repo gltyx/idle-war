@@ -161,7 +161,7 @@ var cnItems = {
     "Stage info": "舞台信息",
     "The game will reset, but you can then spend XP on upgrades, making your ships more powerful.": "游戏将重置，但您可以将 XP 用于升级，让您的战舰更强大。",
     "The ships approaching are trying to breach through our defenses. Stop them from coming through!": "接近的飞船正试图突破我们的防御。 阻止他们通过！",
-    "Time played:": "出场时间：",
+    "Time played:": "游戏时长：",
     "Try again": "再试一次",
     "View": "查看",
     "XP gained:": "获得的经验值：",
